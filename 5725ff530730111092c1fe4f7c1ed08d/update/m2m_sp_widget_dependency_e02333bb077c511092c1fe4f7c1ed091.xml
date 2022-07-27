@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="moment-timezone-with-data-2010-2020-v0.5">db6689c1cb11120000f8d856634c9c3b</sp_dependency>
+        <sp_widget display_value="GroceryClock">2c2333bb077c511092c1fe4f7c1ed08d</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 08:00:47</sys_created_on>
+        <sys_id>e02333bb077c511092c1fe4f7c1ed091</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>moment-timezone-with-data-2010-2020-v0.5.GroceryClock</sys_name>
+        <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_e02333bb077c511092c1fe4f7c1ed091</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 08:00:47</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

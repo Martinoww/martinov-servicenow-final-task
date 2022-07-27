@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_stauts" table="x_842887_logistic_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_stauts</element>
+            <name>x_842887_logistic_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-25 19:33:18</sys_created_on>
+            <sys_id>9d7eb3db0730111092c1fe4f7c1ed0f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_stauts</sys_name>
+            <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+            <sys_update_name>sys_choice_x_842887_logistic_order_u_stauts</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-25 19:33:18</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stauts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_842887_logistic_order</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-25 19:33:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d97eb3db0730111092c1fe4f7c1ed0f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-25 19:33:18</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stauts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In progress</label>
+            <language>en</language>
+            <name>x_842887_logistic_order</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-25 19:33:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>197eb3db0730111092c1fe4f7c1ed0f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-25 19:33:18</sys_updated_on>
+            <value>in_progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stauts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_842887_logistic_order</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-25 19:33:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>197ef3db0730111092c1fe4f7c1ed008</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-25 19:33:18</sys_updated_on>
+            <value>rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stauts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_842887_logistic_order</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-25 19:33:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>557eb3db0730111092c1fe4f7c1ed0f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-25 19:33:18</sys_updated_on>
+            <value>requested</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

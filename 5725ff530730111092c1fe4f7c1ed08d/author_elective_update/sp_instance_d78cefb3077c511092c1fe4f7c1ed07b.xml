@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">978cefb3077c511092c1fe4f7c1ed079</sp_column>
+        <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 07:32:02</sys_created_on>
+        <sys_id>d78cefb3077c511092c1fe4f7c1ed07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+        <sys_update_name>sp_instance_d78cefb3077c511092c1fe4f7c1ed07b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 07:32:02</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"report_id": {
+		"value": "2f467c310774111092c1fe4f7c1ed047",
+		"displayValue": "Requests By Type"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d78cefb3077c511092c1fe4f7c1ed07b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</application>
+        <file_path/>
+        <instance_id>c359cf16dbdb04104d2bac44d496193d</instance_id>
+        <instance_name>dev102237</instance_name>
+        <name>sp_instance_d78cefb3077c511092c1fe4f7c1ed07b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;978cefb3077c511092c1fe4f7c1ed079&lt;/sp_column&gt;&lt;sp_widget display_value="Report"&gt;e41aa2d29f0222008252baac757fcfce&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-27 07:32:02&lt;/sys_created_on&gt;&lt;sys_id&gt;d78cefb3077c511092c1fe4f7c1ed07b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Logistic" source="x_842887_logistic"&gt;5725ff530730111092c1fe4f7c1ed08d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Logistic"&gt;5725ff530730111092c1fe4f7c1ed08d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d78cefb3077c511092c1fe4f7c1ed07b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-27 07:32:02&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"report_id": {
+		"value": "2f467c310774111092c1fe4f7c1ed047",
+		"displayValue": "Requests By Type"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d78cefb3077c511092c1fe4f7c1ed07b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>107910817</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9725ff530730111092c1fe4f7c1ed08f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 07:32:02</sys_created_on>
+        <sys_id>1b8cefb3077c511092c1fe4f7c1ed0bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823e91da890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 07:32:02</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>9f8cefb3527c51104355c20f1fd04a7c</update_guid>
+        <update_guid_history>9f8cefb3527c51104355c20f1fd04a7c:107910817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">db207fb7077c511092c1fe4f7c1ed0f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 07:47:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>c45a8e5872214c549edaedaadbfa8a90</sys_id>
+        <sys_metadata>d78cefb3077c511092c1fe4f7c1ed07b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+        <sys_scope_delete display_value="">215cb63b8e1a4b4e919b277617f0d524</sys_scope_delete>
+        <sys_update_name>sp_instance_d78cefb3077c511092c1fe4f7c1ed07b</sys_update_name>
+        <sys_update_version display_value="sp_instance_d78cefb3077c511092c1fe4f7c1ed07b">1b8cefb3077c511092c1fe4f7c1ed0bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 07:47:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

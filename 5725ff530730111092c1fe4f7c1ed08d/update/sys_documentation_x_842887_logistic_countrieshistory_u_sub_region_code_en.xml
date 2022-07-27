@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_sub_region_code" label="sub-region-code" language="en" table="x_842887_logistic_countrieshistory">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sub_region_code</element>
+            <help/>
+            <hint/>
+            <label>sub-region-code</label>
+            <language>en</language>
+            <name>x_842887_logistic_countrieshistory</name>
+            <plural>sub-region-codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-25 19:38:49</sys_created_on>
+            <sys_id>cebf3b1f0730111092c1fe4f7c1ed01f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sub-region-code</sys_name>
+            <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+            <sys_update_name>sys_documentation_x_842887_logistic_countrieshistory_u_sub_region_code_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-25 19:38:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

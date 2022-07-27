@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Address" max_length="40" name="x_842887_logistic_address" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="alpha-2 country code" max_length="40" name="u_alpha_2_country_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="encode_utf8=false" label="Country" max_length="32" name="u_country" read_only="true" reference="x_842887_logistic_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Latitude" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Longitude" max_length="40" name="u_longitude" type="string"/>
+        <element label="Postal Code" max_length="40" name="u_postal_code" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="u_street" type="string"/>
+        <element label="Street number" max_length="40" name="u_street_number" type="integer"/>
+        <index name="index">
+            <element name="u_country"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>name</name>
+        <rest_message_function display_value="GET Most Likely Country">adb256ef0738111092c1fe4f7c1ed022</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 06:22:33</sys_created_on>
+        <sys_id>f3039a630778111092c1fe4f7c1ed0d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_f3039a630778111092c1fe4f7c1ed0d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 06:22:45</sys_updated_on>
+        <type>string</type>
+        <value>alex</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

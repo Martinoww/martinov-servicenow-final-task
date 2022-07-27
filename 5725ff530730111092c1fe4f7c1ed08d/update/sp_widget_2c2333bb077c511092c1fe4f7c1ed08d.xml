@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function TimeCtrl($scope, $timeout) {
+    $scope.clock = "loading clock..."; // initialise the time variable
+    $scope.tickInterval = 1000 //ms
+
+    var tick = function() {
+        $scope.clock = Date.now() // get the current time
+				console.log($scope.clock);
+        $timeout(tick, $scope.tickInterval); // reset the timer
+    }
+
+    // Start the timer
+    $timeout(tick, $scope.tickInterval);
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.clock-container {
+  margin-top: 3rem;
+   width:100;
+    background-color: #080808;
+    border-radius: 5px;
+    padding: 60px 20px;
+    box-shadow: 1px 1px 5px rgba(255,255,255,.15), 0 15px 90px 30px rgba(0,0,0,.25);
+  	background-image: url("https://pnptc-media.s3.amazonaws.com/images/header_photo.2e16d0ba.fill-1200x800.jpg");
+    background-repeat: no-repeat;
+		background-size: 100% 100%;
+  }
+
+.clock-col {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    min-width: 90px;
+    position: relative;
+    &amp;:not(:last-child):before,
+    &amp;:not(:last-child):after{
+      content: "";
+      background-color: rgba(255,255,255,.3);
+      height: 5px;
+      width: 5px;
+      border-radius: 50%;
+      display: block;
+      position: absolute;
+      right: -42px;
+    }
+    &amp;:not(:last-child):before {
+      top: 35%;
+    }
+    &amp;:not(:last-child):after {
+      top: 50%;
+    }
+  }
+
+
+p.clock-day.clock-timer {
+  color:white;
+  font-size:30px
+}
+ </css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{"options": 
+	{
+		"zone": "America/Los_Angeles",
+		"title": "San Diego, CA",
+		"c_color": "blue"
+	}
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>title</field_list>
+        <has_preview>true</has_preview>
+        <id>groceryclock</id>
+        <internal>false</internal>
+        <link><![CDATA[function (scope, $element, attrs) {
+	var element = $element[0];
+	cacheElementSize(scope, element);
+	$(window).on('resize', onWindowResize);
+	// run after layout
+	setTimeout(onWindowResize, 5);
+	
+	function cacheElementSize(scope, element) {
+		var elem = scope.elem = {}
+		elem.w = element.offsetWidth;
+		elem.h = element.offsetHeight;
+		return elem;
+	}
+
+	function onWindowResize() {
+		var elem = scope.elem;
+		var isSizeChanged = elem.w != element.offsetWidth || elem.h != element.offsetHeight;
+		if (isSizeChanged) {
+			elem = cacheElementSize(scope, element);
+			// to stay square, the child width has to be
+			// min of height, width
+			var w = Math.min(elem.h, elem.w);
+			var clock = element.firstChild;
+			clock.style.width = w + "px";
+		}
+	}	
+}]]></link>
+        <name>GroceryClock</name>
+        <option_schema>[{"name":"zone","default_value":"America/Los_Angeles","section":"Data","label":"TimeZone","type":"string"},{"name":"c_color","default_value":"red","section":"Presentation","label":"Second hand color","type":"string"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 08:00:47</sys_created_on>
+        <sys_id>2c2333bb077c511092c1fe4f7c1ed08d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GroceryClock</sys_name>
+        <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+        <sys_update_name>sp_widget_2c2333bb077c511092c1fe4f7c1ed08d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 08:04:16</sys_updated_on>
+        <template><![CDATA[<div ng-controller='TimeCtrl' class="clock-container">
+  <div class="clock-col">
+    <p class="clock-day clock-timer">
+      {{ clock  | date:'medium'}}
+    </p>
+    
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

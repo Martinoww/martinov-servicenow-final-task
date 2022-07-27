@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_price" label="Price" language="en" table="x_842887_logistic_product">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_price</element>
+            <help/>
+            <hint/>
+            <label>Price</label>
+            <language>en</language>
+            <name>x_842887_logistic_product</name>
+            <plural>Prices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-25 19:18:13</sys_created_on>
+            <sys_id>5c0bffd70730111092c1fe4f7c1ed0e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Price</sys_name>
+            <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+            <sys_update_name>sys_documentation_x_842887_logistic_product_u_price_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-25 19:18:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

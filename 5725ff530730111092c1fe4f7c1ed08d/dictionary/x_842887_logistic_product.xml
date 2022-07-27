@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Product" max_length="40" name="x_842887_logistic_product" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware" sequence="0" value="hardware"/>
+                <element inactive_on_update="false" label="Service" sequence="1" value="service"/>
+                <element inactive_on_update="false" label="Software" sequence="2" value="software"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="200" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element label="Price" max_length="40" name="u_price" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Image" max_length="1024" name="u_product_image" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Second product Image" max_length="1024" name="u_second_product_image" type="url"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

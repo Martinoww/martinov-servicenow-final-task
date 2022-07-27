@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_842887_logistic.logistic.admin" name="x_842887_logistic.logistic.admin">1445f3930730111092c1fe4f7c1ed0a3</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 18:53:06</sys_created_on>
+        <sys_id>9445f3930730111092c1fe4f7c1ed0a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1445f3930730111092c1fe4f7c1ed0a3</sys_name>
+        <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9445f3930730111092c1fe4f7c1ed0a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 18:53:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

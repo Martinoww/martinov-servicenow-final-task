@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>other</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 10:48:04</sys_created_on>
+        <sys_id>a3bfcfeb073c111092c1fe4f7c1ed091</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>other</sys_name>
+        <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a3bfcfeb073c111092c1fe4f7c1ed091</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 10:48:04</sys_updated_on>
+        <table>x_842887_logistic_product</table>
+        <ui_policy display_value="Show other field">af8f0feb073c111092c1fe4f7c1ed066</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

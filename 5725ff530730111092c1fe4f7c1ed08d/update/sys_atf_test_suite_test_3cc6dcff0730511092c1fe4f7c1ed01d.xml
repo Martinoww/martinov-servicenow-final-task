@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>1</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 15:58:14</sys_created_on>
+        <sys_id>3cc6dcff0730511092c1fe4f7c1ed01d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1775d4bf0730511092c1fe4f7c1ed05d</sys_name>
+        <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_3cc6dcff0730511092c1fe4f7c1ed01d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 15:58:14</sys_updated_on>
+        <test display_value="Check Order Table Address Field">1775d4bf0730511092c1fe4f7c1ed05d</test>
+        <test_suite display_value="Order Test Suite">1353183f0730511092c1fe4f7c1ed059</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

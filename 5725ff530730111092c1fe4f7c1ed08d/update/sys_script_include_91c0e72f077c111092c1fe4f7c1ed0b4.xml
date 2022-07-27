@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_842887_logistic.TotalSumOfOrderLines</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TotalSumOfOrderLines</name>
+        <script><![CDATA[var TotalSumOfOrderLines = Class.create();
+TotalSumOfOrderLines.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getTotalSum: function() {
+        var orderLineSysId = this.getParameter('sysparm_orderLineSysId');
+        var separatedSysIds = orderLineSysId.split(',');
+		var result = 0;
+        for (var i = 0; i < separatedSysIds.length; i++) {
+            var currSysId = separatedSysIds[i];
+            var gr = new GlideRecord('x_842887_logistic_order_line');
+            gr.addEncodedQuery('sys_id=' + currSysId);
+            gr.query();
+
+            if (gr.next()) {
+//                 gs.info('Alex gr test: ' + gr.u_product + ' ==== ' + gr.u_quantity);
+				var quantity = gr.getValue('u_quantity');
+                var grProduct = new GlideRecord('x_842887_logistic_product');
+                grProduct.addEncodedQuery('sys_id=' + gr.u_product);
+                grProduct.query();
+
+                if (grProduct.next()) {
+					var productPrice = grProduct.getValue('u_price');
+					result = result + (productPrice * quantity);
+                }
+				
+            }else {
+				result = 0;
+			}
+        }
+			return JSON.stringify({"result":result});
+    },
+    type: 'TotalSumOfOrderLines'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 12:24:48</sys_created_on>
+        <sys_id>91c0e72f077c111092c1fe4f7c1ed0b4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>TotalSumOfOrderLines</sys_name>
+        <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+        <sys_update_name>sys_script_include_91c0e72f077c111092c1fe4f7c1ed0b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 12:47:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

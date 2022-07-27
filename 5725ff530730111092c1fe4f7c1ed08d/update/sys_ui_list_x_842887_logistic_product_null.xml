@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_842887_logistic_product" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_842887_logistic_product" element="NULL" name="x_842887_logistic_product" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd1763a307bc111092c1fe4f7c1ed0ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 12:29:41</sys_created_on>
+            <sys_id>bd1763a307bc111092c1fe4f7c1ed0eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 12:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_name</element>
+            <list_id display_value="x_842887_logistic_product" element="NULL" name="x_842887_logistic_product" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd1763a307bc111092c1fe4f7c1ed0ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 12:29:41</sys_created_on>
+            <sys_id>351763a307bc111092c1fe4f7c1ed0ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 12:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>other</element>
+            <list_id display_value="x_842887_logistic_product" element="NULL" name="x_842887_logistic_product" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd1763a307bc111092c1fe4f7c1ed0ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 12:29:41</sys_created_on>
+            <sys_id>b51763a307bc111092c1fe4f7c1ed0ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 12:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_category</element>
+            <list_id display_value="x_842887_logistic_product" element="NULL" name="x_842887_logistic_product" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd1763a307bc111092c1fe4f7c1ed0ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 12:29:41</sys_created_on>
+            <sys_id>391763a307bc111092c1fe4f7c1ed0ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 12:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_description</element>
+            <list_id display_value="x_842887_logistic_product" element="NULL" name="x_842887_logistic_product" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd1763a307bc111092c1fe4f7c1ed0ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 12:29:41</sys_created_on>
+            <sys_id>b91763a307bc111092c1fe4f7c1ed0ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 12:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_price</element>
+            <list_id display_value="x_842887_logistic_product" element="NULL" name="x_842887_logistic_product" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd1763a307bc111092c1fe4f7c1ed0ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 12:29:41</sys_created_on>
+            <sys_id>3d1763a307bc111092c1fe4f7c1ed0ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 12:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_product_image</element>
+            <list_id display_value="x_842887_logistic_product" element="NULL" name="x_842887_logistic_product" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd1763a307bc111092c1fe4f7c1ed0ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 12:29:41</sys_created_on>
+            <sys_id>bd1763a307bc111092c1fe4f7c1ed0ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 12:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_second_product_image</element>
+            <list_id display_value="x_842887_logistic_product" element="NULL" name="x_842887_logistic_product" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fd1763a307bc111092c1fe4f7c1ed0ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 12:29:41</sys_created_on>
+            <sys_id>311763a307bc111092c1fe4f7c1ed0ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 12:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_842887_logistic_product</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 12:29:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd1763a307bc111092c1fe4f7c1ed0ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_842887_logistic_product</sys_name>
+            <sys_package display_value="Logistic" source="x_842887_logistic">5725ff530730111092c1fe4f7c1ed08d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Logistic">5725ff530730111092c1fe4f7c1ed08d</sys_scope>
+            <sys_update_name>sys_ui_list_x_842887_logistic_product_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 12:29:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
